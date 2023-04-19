@@ -1,0 +1,7 @@
+echo "# 9host" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M Ghostify
+git remote add origin git@github.com:x-Ghosty/9host.git
+git push -u origin Ghostify
